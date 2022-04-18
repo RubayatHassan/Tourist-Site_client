@@ -5,7 +5,7 @@ const Register = () => {
         <div className='mt-5'>
       <div>
           <h1 className='display-4 text-center'> You can take this support</h1>
-          <ul class="list-group text-center w-100">
+          <ul class="list-group text-center mx-auto w-100">
       <li class="list-group-item">Safty Tour</li>
       <li class="list-group-item">Proper Guideline</li>
       <li class="list-group-item">Provide car</li>

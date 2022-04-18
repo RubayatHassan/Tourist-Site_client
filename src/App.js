@@ -9,6 +9,8 @@ import NotFound from './components/NotFound/NotFound';
 import Login from './components/Login/Login/Login';
 import Blogs from './components/Blogs/Blogs';
 import Tourist from './components/Tourist/Tourist';
+import Order from './components/Order/Order';
+import RequireAuth from './components/RequireAuth/RequireAuth';
 
 function App() {
 
@@ -22,6 +24,9 @@ function App() {
         <Route path="/services" element={<Services></Services>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/tourist" element={<Tourist></Tourist>}></Route>
+        <Route path="/order" element={
+        <RequireAuth><Order></Order></RequireAuth>
+         }></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
