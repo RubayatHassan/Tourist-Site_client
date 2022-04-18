@@ -7,10 +7,11 @@ import Banner from './Banner';
 const Home = () => {
     return (
         <>
-        <h1 className='text-center display-2'><strong>The Turist guider</strong></h1>
+        <h1 className='text-center display-2'><strong>The Turist Guider</strong></h1>
             <Banner></Banner>
             <Services></Services>
             <Register></Register>
+            
         </>
     );
 };
