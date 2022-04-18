@@ -1,4 +1,6 @@
 import './App.css';
+import app from './firebase.init';
+import { getAuth } from "firebase/auth";
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -8,7 +10,7 @@ import Blogs from './components/Blogs/Blogs';
 import Services from './components/Services/Services';
 import NotFound from './components/NotFound/NotFound';
 import Login from './components/Login/Login/Login';
-
+const auth = getAuth(app);
 function App() {
   return (
     <div>

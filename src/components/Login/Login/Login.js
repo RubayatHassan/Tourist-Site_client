@@ -1,7 +1,28 @@
-import React from 'react';
+import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
+import app from '../../../firebase.init';
+
+const auth = getAuth(app);
 
 const Login = () => {
+  const [user, setUser] = useState({});
+
+  const googleProvider = new GoogleAuthProvider();
+
+  const handleGoogleSignIn = () => {
+
+    signInWithPopup(auth, googleProvider)
+      .then(result => {
+        const user = result.user;
+        setUser(user);
+        console.log(user);
+      })
+      .catch(error => {
+        console.error('error', error)
+      })
+  }
+
     return (
         <div className='container w-50 mx-auto'>
             <h2 className='text-primary text-center mt-2'>Please Login</h2>
@@ -24,6 +45,8 @@ const Login = () => {
   <Button variant="primary" type="submit">
     Submit
   </Button>
+  <br></br>
+  <Button onClick={handleGoogleSignIn} className='mt-5 w-100 mx-auto'>google signin</Button>
 </Form>
         </div>
     );
