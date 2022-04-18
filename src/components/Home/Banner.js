@@ -16,8 +16,8 @@ const Banner = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h2>Awesome Cox's Bazar</h2>
+            <p>Cox's Bazar is a city, fishing port, tourism centre, and district headquarters in southeastern Bangladesh</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -28,8 +28,8 @@ const Banner = () => {
           />
   
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2>Sunset in Hill The Incredible Sajek</h2>
+            <p>It's so amazing place in the Sajek area to watch sunset over the blue hills</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -40,9 +40,9 @@ const Banner = () => {
           />
   
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h2>The Natural Wonders Sundarbon</h2>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Sundarban mangrove forest is the single largest home of the Royal Bengal Tiger( Panthera tigris )
             </p>
           </Carousel.Caption>
         </Carousel.Item>

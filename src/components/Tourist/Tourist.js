@@ -4,7 +4,7 @@ const Tourist = () => {
     return (
         <div>
           <h1 className='display-3 text-center'>The more Beautiful Place</h1>
-          <ul class="list-group">
+          <ul class="list-group text-center">
       <li class="list-group-item">Coxs Bazar</li>
       <li class="list-group-item">Saint Martin</li>
       <li class="list-group-item">Nilgiri</li>
