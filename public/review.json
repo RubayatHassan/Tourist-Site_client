@@ -1,0 +1,49 @@
+[
+    {   "id": 1,
+        "name": "Cox's Bazar",
+        "img": "https://img.freepik.com/free-photo/sunrise_74190-169.jpg?t=st=1650205472~exp=1650206072~hmac=10748a7f70114c50a96512f897a18defc01daf9f1b34e082b2df2101256cba7b&w=1380",
+        "rating": "5/5",
+        "price": 1800,
+        "body": "For Bangladeshis it doesn't get much better than Cox's Bazar, the country's most popular beach resort. Sort of a Cancun of the east, it's choc-a-bloc with massive cement hotels and gaudy over-development catering largely to the country's elite"
+    },
+    {
+        "id": 2,
+        "name": "Sajek Valley",
+        "img": "https://img.freepik.com/free-photo/view-sajek-valley-mountain-bangladesh_595440-1469.jpg?w=1380",
+        "rating": "4/5",
+        "price": 1500,
+        "body": "Sajek valley is 2000 feet above sea level. Sajek valley is known as the Queen of Hills & Roof of Rangamati. The name of Sajek Valley came from Sajek River that originates from Karnafuli river. Sajek river is working as a border between Bangladesh and India. Sajek valley resorts are made on the side of the hill to provide the unique experience of tribal lifestyle."
+    },
+    {
+        "id": 3,
+        "name": "saint martin island",
+        "img": "https://img.freepik.com/free-photo/wooden-boat-saint-martins-island-bangladeshi-island_525574-10614.jpg?w=1380",
+        "rating": "4/5",
+        "price": 1300,
+        "body": "St. Martin is generally known as “Narikel Zinzira” in Bengali, means 'Coconut Island and this is the only coral reef island in Bangladesh. It is a small island in the north eastern part of the Bay of Bengal, created the southernmost part of our country. It is about 8 km west of the northwest coast of Myanmar, at the mouth of the Naf River. It is only 8 sq. Kilometre in size. Experts separate this island into three parts. Northern part is called Narikel Jinjira. It is 2. 134 km long and 1, 402 m wide"
+    },
+    {
+        "id": 4,
+        "name": "Sundanban",
+        "img": "https://img.freepik.com/free-photo/beautiful-axis-deer-from-sundarbans-tiger-reserve-india_475641-831.jpg?t=st=1650206167~exp=1650206767~hmac=f8e603a680caa44ae269482fba2f9829a3df5e8d4bf082c9c66888f93e3cbc88&w=1380",
+        "rating": "4/5",
+        "price": 2000,
+        "body": "The Sundarbans mangrove forest, one of the largest such forests in the world (140,000 ha), lies on the delta of the Ganges, Brahmaputra and Meghna rivers on the Bay of Bengal. It is adjacent to the border of India’s Sundarbans World Heritage site inscribed in 1987. The site is intersected by a complex network of tidal waterways, mudflats and small islands of salt-tolerant mangrove forests, and presents an excellent example of ongoing ecological processes. The area is known for its wide range of fauna, including 260 bird species, the Bengal tiger and other threatened species such as the estuarine crocodile and the Indian python."
+    },
+    {
+        "id": 5,
+        "name": "Jaflong",
+        "img": "https://img.freepik.com/free-photo/famous-spring-green-farmland-hat_1417-205.jpg?t=st=1650206429~exp=1650207029~hmac=d7ae53752c4bd0e02c910f02fbb6aab890fdba8d107bec423ac39ae1ef3bb5be&w=1380",
+        "rating": "4/5",
+        "price": 1200,
+        "body": "In Jaflong, a tribe name Kashai has been living for many generations, and tourist can have an up close and personal experience with the Kashai people visiting Jaflong. Every year hundreds of tourists, from Bangladesh as well as from all over the world, visit Jaflong."
+    },
+    {
+        "id": 6,
+        "name": "Tatulia",
+        "img": "https://img.freepik.com/free-photo/fuji-mountains-green-tea-plantation-shizuoka-japan_335224-183.jpg?t=st=1650206429~exp=1650207029~hmac=cf1d0a567f573cea098fbce0fb5455ccfc9baba3789ec335f97dffbe426e6c2b&w=1380",
+        "rating": "5/5",
+        "price": 1000,
+        "body": "Tetulia is located at the edge of the northern side of Bangladesh. Tetulia is a sub district of Panchagarh district. This place is famous for the tea states & the beautiful view of Indian border and Himalaya, Kanchanjangha. You may have query in mind that which time of the year is the best time to enjoy Kanchanjangha view & the answer is if you are there to enjoy the view of Kanchanjangha you must Tetulia by October to November. To enjoy the view of Kanchanjangha you have to wake up early in the morning. And need to attend by the border of country to enjoy the charming natural beauty."
+    }
+]
