@@ -1,4 +1,4 @@
-import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from 'firebase/auth';
 import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import app from '../../../firebase.init';
@@ -22,10 +22,22 @@ const Login = () => {
         console.error('error', error)
       })
   }
+  const handleSignOut = () => {
+    signOut(auth)
+      .then(() => {
+        setUser({});
+      })
+      .catch(error => {
+        setUser({});
+      });
+  }
 
     return (
         <div className='container w-50 mx-auto'>
             <h2 className='text-primary text-center mt-2'>Please Login</h2>
+            {
+              user.uid ? <Button onClick={handleSignOut} className='mt-5 w-100 mx-auto'>Sign out</Button>
+            :
             <Form>
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
@@ -47,8 +59,12 @@ const Login = () => {
   </Button>
   <br></br>
   <Button onClick={handleGoogleSignIn} className='mt-5 w-100 mx-auto'>google signin</Button>
+
 </Form>
-        </div>
+}
+      <h2>Name: {user.displayName}</h2>
+      <p>Email address: {user.email}</p>
+      </div>
     );
 };
 
