@@ -34,11 +34,12 @@ const Login = () => {
 
     return (
         <div className='container w-50 mx-auto'>
-            <h2 className='text-primary text-center mt-2'>Please Login</h2>
+            
             {
               user.uid ? <Button onClick={handleSignOut} className='mt-5 w-100 mx-auto'>Sign out</Button>
             :
             <Form>
+              <h2 className='text-primary text-center mt-2'>Please Login</h2>
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />

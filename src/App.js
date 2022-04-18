@@ -1,17 +1,16 @@
 import './App.css';
-import app from './firebase.init';
-import { getAuth } from "firebase/auth";
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Blogs from './components/Blogs/Blogs';
 import Services from './components/Services/Services';
 import NotFound from './components/NotFound/NotFound';
 import Login from './components/Login/Login/Login';
-const auth = getAuth(app);
+import Register from './components/Login/Register/Register';
+
 function App() {
+
   return (
     <div>
       <Header></Header>
@@ -22,6 +21,7 @@ function App() {
         <Route path="/services" element={<Services></Services>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
         
       </Routes>
